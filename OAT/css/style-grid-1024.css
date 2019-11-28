@@ -1,0 +1,96 @@
+body,html{
+	height: 100%;
+}
+
+
+#container{
+	height: 100%;
+	display: grid;
+	grid-template-rows: 30% minmax(min-content,7%) auto 10%;
+
+
+	
+}
+
+.header{
+	border: 1px solid #000;
+	background-image:url("/OAT/home.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+	margin: 1%;
+}
+
+
+.menu{
+	display: block;
+	border: 1px solid #000;
+	margin: 1%;
+	background-color: #E0F8F7;
+
+
+}
+
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+
+.menu ul li{
+	border: 1px solid #000;
+	color: #F5FBEF;
+	margin: 3px;
+	text-align: center;
+
+}
+
+.main{
+	display: grid;
+	grid-template-columns: auto;
+	border: 1px solid #000;
+	margin: 1%;
+	padding: 30px 50px 10px 50px;
+	background-color: #6E6E6E; 
+}
+
+
+
+.table{
+	width: 50% !important;
+	margin: auto;
+}
+
+.table tr td{
+	border: 2px solid #000;
+}
+
+.main form{
+	text-align: center;
+}
+
+input{
+	width: 30%;
+}
+
+.rodape{
+	border: 1px solid #000;
+	display: block;
+	margin: 1%;
+	background-color: #E0F8F7;
+}
+
+
+
+.titulo h3{
+	text-align: center;
+
+}
+
+
+#sobre p{
+	text-align: justify;
+	
+}
